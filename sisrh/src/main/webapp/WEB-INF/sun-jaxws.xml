@@ -1,0 +1,18 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+
+    <!-- Serviço básico (ping e dataHoraServidor) -->
+    <endpoint name="SISRHService"
+              implementation="sisrh.soap.ServicoBasico"
+              url-pattern="/soap/basico" />
+
+    <!-- Serviço de empregados -->
+    <endpoint name="EmpregadoService"
+              implementation="sisrh.soap.ServicoEmpregado"
+              url-pattern="/soap/empregado" />
+
+    <!-- Serviço de solicitações -->
+    <endpoint name="SolicitacaoService"
+              implementation="sisrh.soap.ServicoSolicitacao"
+              url-pattern="/soap/solicitacao" />
+
+</endpoints>
