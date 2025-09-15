@@ -22,4 +22,4 @@ jobs:
 
       - name: Build with Maven
         run: mvn -B clean package
-        working-directory: SISRH/sisrh
+        working-directory: sisrh
